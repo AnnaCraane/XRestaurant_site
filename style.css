@@ -1,0 +1,49 @@
+*{
+    padding:0;
+    margin:0;
+    color: whitesmoke; 
+    
+
+}
+
+html{
+    font-family:'Times New Roman', Times, serif;
+    font-size:25px;
+    
+}
+
+.mainContainer{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    width:100%;
+}
+
+a{
+    text-decoration: none;
+    text-align: center;
+    color:white;
+
+}
+#main{
+    background-image:url(./Assets/RainForest1.jpg) ;
+    position:relative;
+    background-size: cover;
+    background-position: top center;
+      
+}
+
+.menu{
+    color: red;
+    font-size:20px ;
+    display:inline-block;
+    background-color:black;
+    border: red;
+    transition: .2 ease background-color;
+    text-transform: uppercase;
+}
+.menu:hover{
+    color:beige;
+    background-color:red;
+}
